@@ -1,0 +1,47 @@
+{
+  "name": "EMSys",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-addons-update": "^15.6.2",
+    "react-native": "0.59.9",
+    "react-native-24h-timepicker": "^1.0.0",
+    "react-native-confirmation-code-field": "^4.1.0",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-countdown-component": "^2.6.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-modal-datetime-picker": "^7.4.2",
+    "react-native-phone-input": "^0.2.4",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-table-component": "^1.2.1",
+    "react-native-vector-icons": "^6.5.0",
+    "react-navigation": "^3.11.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3",
+    "redux-logger": "^3.0.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
